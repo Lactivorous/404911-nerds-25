@@ -34,13 +34,13 @@
                     <a href="#" class="button">Заказать</a>
                 </li>
                 <li class="services-item">
-                    <img src="img/apppic.png" width="300" height="146" alt="Приложения">
+                    <img src="img/apppic.jpg" width="300" height="146" alt="Приложения">
                     <h3>Приложения</h3>
                     <p>Покорите топ-10 приложений в AppStore и Google Play</p>
                     <a href="#" class="button">Заказать</a>
                 </li>
                 <li class="services-item">
-                    <img src="img/prespic.png" width="300" height="146" alt="Презентации">
+                    <img src="img/prespic.jpg" width="300" height="146" alt="Презентации">
                     <h3>Презентации</h3>
                     <p>Вы даже не подозреваете, насколько вы изумительны!</p>
                     <a href="#" class="button">Заказать</a>
@@ -117,7 +117,21 @@
 
     <section class="modal modal-login">
         <h2>Напишите нам</h2>
-        <!-- Здесь будет форма -->
+        <form class="appointment-form" action="https://echo.htmlacademy.ru" method="post">
+            <p class="appointment-item">
+                <label for="appointment-name">Ваше имя:</label>
+                <input id="appointment-name" type="text" name="name" placeholder="Имя Фамилия">
+            </p>
+            <p class="appointment-item">
+                <label for="appointment-mail">Ваш e-mail:</label>
+                <input id="appointment-mail" type="email" name="mail" placeholder="email@example.com">
+            </p>
+            <p class="appointment-item">
+                <label for="appointment-text">Текст письма:</label>
+                <textarea id="appointment-text" name="text" cols="60" rows="5" placeholder="В свободной форме"></textarea>
+            </p>
+            <button class="button" type="submit">Отправить</button>
+        </form>
         <span class="modal-close">x</span>
     </section>
 </body>
