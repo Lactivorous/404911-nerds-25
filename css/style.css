@@ -252,6 +252,10 @@ a {
     color: #666666;
 }
 
+.contacts-map {
+    width: 100%;
+}
+
 .social-list {
     margin: 0 140px 0 0;
     padding: 0;
@@ -275,7 +279,7 @@ a {
 }
 
 .footer-promo {
-    width: 560px;
+    width: 760px;
 }
 
 .footer-promo b {
